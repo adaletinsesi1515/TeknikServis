@@ -161,6 +161,8 @@
     <None Include="Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </None>
+    <None Include="Notlar\DbTeknikServis.bak" />
+    <None Include="Notlar\PROJE İŞLEM ADIMLARI.docx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

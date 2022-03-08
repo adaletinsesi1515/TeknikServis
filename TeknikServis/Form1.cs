@@ -27,7 +27,7 @@ namespace TeknikServis
         {
             Formlar.FrmUrunListeleme fr = new Formlar.FrmUrunListeleme();
             fr.MdiParent = this;
-            fr.Show();
+            fr.Show(); 
         }
     }
 }

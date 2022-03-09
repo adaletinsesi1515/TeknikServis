@@ -23,11 +23,30 @@ namespace TeknikServis
 
         }
 
+        //Burada öncelikle formun newlenmesini sağlıyoruz. 
+
+        
+        Formlar.FrmUrunListeleme frmUrunListeleme;
+        Formlar.FrmYeniUrun frmYeniUrun;
+
         private void btnUrunListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {              
+            if (frmUrunListeleme == null || frmUrunListeleme.IsDisposed)
+            {
+                frmUrunListeleme = new Formlar.FrmUrunListeleme();
+                frmUrunListeleme.MdiParent = this;
+                frmUrunListeleme.Show();
+            }
+        }
+
+        private void btnYenıUrun_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmUrunListeleme fr = new Formlar.FrmUrunListeleme();
-            fr.MdiParent = this;
-            fr.Show(); 
+            if (frmYeniUrun== null || frmYeniUrun.IsDisposed)
+            {
+                frmYeniUrun = new Formlar.FrmYeniUrun();
+                //frmYeniUrun.MdiParent = this;
+                frmYeniUrun.Show();
+            }
         }
     }
 }

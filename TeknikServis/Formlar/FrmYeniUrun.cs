@@ -41,5 +41,10 @@ namespace TeknikServis.Formlar
             MessageBox.Show("Ürün başarıyla kaydedildi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
+
+        private void btnVazgec_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

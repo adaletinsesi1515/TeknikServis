@@ -304,7 +304,7 @@ namespace TeknikServis.Formlar
             // 
             this.btnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.btnKaydet.Appearance.Options.UseFont = true;
-            this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
             this.btnKaydet.Location = new System.Drawing.Point(12, 563);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(180, 60);
@@ -316,12 +316,13 @@ namespace TeknikServis.Formlar
             // 
             this.btnVazgec.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
             this.btnVazgec.Appearance.Options.UseFont = true;
-            this.btnVazgec.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.btnVazgec.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnVazgec.ImageOptions.Image")));
             this.btnVazgec.Location = new System.Drawing.Point(201, 563);
             this.btnVazgec.Name = "btnVazgec";
             this.btnVazgec.Size = new System.Drawing.Size(180, 60);
             this.btnVazgec.TabIndex = 8;
             this.btnVazgec.Text = "VAZGEÇ";
+            this.btnVazgec.Click += new System.EventHandler(this.btnVazgec_Click);
             // 
             // lookUpKategori
             // 

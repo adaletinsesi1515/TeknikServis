@@ -16,5 +16,15 @@ namespace TeknikServis.Formlar
         {
             InitializeComponent();
         }
+        DbTeknikServisEntities db = new DbTeknikServisEntities();
+        private void FrmIstatistik_Load(object sender, EventArgs e)
+        {
+            var sorgu1 = db.TBLURUN.Count();
+            lblToplamUrunSayisi.Text = sorgu1.ToString();
+
+            var sorgu2 = db.TBLKATEGORI.Count();
+            lblToplamKategoriSayisi.Text = sorgu2.ToString();
+
+        }
     }
 }

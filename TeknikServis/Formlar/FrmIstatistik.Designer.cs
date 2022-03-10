@@ -31,64 +31,64 @@ namespace TeknikServis.Formlar
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmIstatistik));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
+            this.lblToplamUrunSayisi = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.lblToplamKategoriSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureEdit3 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.lblToplamStokSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureEdit4 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.lblKritikSeviye = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureEdit5 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.lblBugunSatilanUrunSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.lblEnDusukFiyatliUrun = new DevExpress.XtraEditors.LabelControl();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.lblEnYuksekFiyatliUrun = new DevExpress.XtraEditors.LabelControl();
             this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureEdit8 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
+            this.lblEnFazlaUrunKategorisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
+            this.lblEnAzStokluUrun = new DevExpress.XtraEditors.LabelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureEdit10 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
+            this.lblEnFazlaStokluUrun = new DevExpress.XtraEditors.LabelControl();
             this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureEdit11 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
+            this.lblYaziciStokSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
             this.panel12 = new System.Windows.Forms.Panel();
             this.pictureEdit12 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl23 = new DevExpress.XtraEditors.LabelControl();
+            this.lblBilgisayarStokSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
             this.panel13 = new System.Windows.Forms.Panel();
             this.pictureEdit13 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
+            this.lblKargodakiUrunSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
             this.panel14 = new System.Windows.Forms.Panel();
             this.pictureEdit14 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
+            this.lblTamirdekiUrunSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl28 = new DevExpress.XtraEditors.LabelControl();
             this.panel15 = new System.Windows.Forms.Panel();
             this.pictureEdit15 = new DevExpress.XtraEditors.PictureEdit();
-            this.labelControl29 = new DevExpress.XtraEditors.LabelControl();
+            this.lblArizaliUrunSayisi = new DevExpress.XtraEditors.LabelControl();
             this.labelControl30 = new DevExpress.XtraEditors.LabelControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
@@ -127,36 +127,12 @@ namespace TeknikServis.Formlar
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(239)))), ((int)(((byte)(196)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.pictureEdit1);
-            this.panel1.Controls.Add(this.labelControl2);
+            this.panel1.Controls.Add(this.lblToplamUrunSayisi);
             this.panel1.Controls.Add(this.labelControl1);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 250);
             this.panel1.TabIndex = 0;
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 15F);
-            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(25, 23);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(214, 30);
-            this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "Toplam Ürün Sayısı";
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(25, 103);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(96, 60);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "584";
             // 
             // pictureEdit1
             // 
@@ -170,12 +146,36 @@ namespace TeknikServis.Formlar
             this.pictureEdit1.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit1.TabIndex = 2;
             // 
+            // lblToplamUrunSayisi
+            // 
+            this.lblToplamUrunSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblToplamUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblToplamUrunSayisi.Appearance.Options.UseFont = true;
+            this.lblToplamUrunSayisi.Appearance.Options.UseForeColor = true;
+            this.lblToplamUrunSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblToplamUrunSayisi.Name = "lblToplamUrunSayisi";
+            this.lblToplamUrunSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblToplamUrunSayisi.TabIndex = 1;
+            this.lblToplamUrunSayisi.Text = "584";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 15F);
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
+            this.labelControl1.Location = new System.Drawing.Point(25, 23);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(214, 30);
+            this.labelControl1.TabIndex = 0;
+            this.labelControl1.Text = "Toplam Ürün Sayısı";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureEdit2);
-            this.panel2.Controls.Add(this.labelControl3);
+            this.panel2.Controls.Add(this.lblToplamKategoriSayisi);
             this.panel2.Controls.Add(this.labelControl4);
             this.panel2.Location = new System.Drawing.Point(379, 13);
             this.panel2.Name = "panel2";
@@ -194,17 +194,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit2.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit2.TabIndex = 2;
             // 
-            // labelControl3
+            // lblToplamKategoriSayisi
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(25, 103);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(96, 60);
-            this.labelControl3.TabIndex = 1;
-            this.labelControl3.Text = "584";
+            this.lblToplamKategoriSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblToplamKategoriSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblToplamKategoriSayisi.Appearance.Options.UseFont = true;
+            this.lblToplamKategoriSayisi.Appearance.Options.UseForeColor = true;
+            this.lblToplamKategoriSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblToplamKategoriSayisi.Name = "lblToplamKategoriSayisi";
+            this.lblToplamKategoriSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblToplamKategoriSayisi.TabIndex = 1;
+            this.lblToplamKategoriSayisi.Text = "584";
             // 
             // labelControl4
             // 
@@ -223,7 +223,7 @@ namespace TeknikServis.Formlar
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(92)))), ((int)(((byte)(231)))));
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.pictureEdit3);
-            this.panel3.Controls.Add(this.labelControl5);
+            this.panel3.Controls.Add(this.lblToplamStokSayisi);
             this.panel3.Controls.Add(this.labelControl6);
             this.panel3.Location = new System.Drawing.Point(745, 13);
             this.panel3.Name = "panel3";
@@ -242,17 +242,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit3.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit3.TabIndex = 2;
             // 
-            // labelControl5
+            // lblToplamStokSayisi
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl5.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Appearance.Options.UseForeColor = true;
-            this.labelControl5.Location = new System.Drawing.Point(25, 103);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(96, 60);
-            this.labelControl5.TabIndex = 1;
-            this.labelControl5.Text = "584";
+            this.lblToplamStokSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblToplamStokSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblToplamStokSayisi.Appearance.Options.UseFont = true;
+            this.lblToplamStokSayisi.Appearance.Options.UseForeColor = true;
+            this.lblToplamStokSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblToplamStokSayisi.Name = "lblToplamStokSayisi";
+            this.lblToplamStokSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblToplamStokSayisi.TabIndex = 1;
+            this.lblToplamStokSayisi.Text = "584";
             // 
             // labelControl6
             // 
@@ -271,7 +271,7 @@ namespace TeknikServis.Formlar
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(48)))), ((int)(((byte)(49)))));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.pictureEdit4);
-            this.panel4.Controls.Add(this.labelControl7);
+            this.panel4.Controls.Add(this.lblKritikSeviye);
             this.panel4.Controls.Add(this.labelControl8);
             this.panel4.Location = new System.Drawing.Point(1111, 13);
             this.panel4.Name = "panel4";
@@ -290,17 +290,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit4.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit4.TabIndex = 2;
             // 
-            // labelControl7
+            // lblKritikSeviye
             // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl7.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(25, 103);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(96, 60);
-            this.labelControl7.TabIndex = 1;
-            this.labelControl7.Text = "584";
+            this.lblKritikSeviye.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblKritikSeviye.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblKritikSeviye.Appearance.Options.UseFont = true;
+            this.lblKritikSeviye.Appearance.Options.UseForeColor = true;
+            this.lblKritikSeviye.Location = new System.Drawing.Point(25, 103);
+            this.lblKritikSeviye.Name = "lblKritikSeviye";
+            this.lblKritikSeviye.Size = new System.Drawing.Size(96, 60);
+            this.lblKritikSeviye.TabIndex = 1;
+            this.lblKritikSeviye.Text = "584";
             // 
             // labelControl8
             // 
@@ -319,7 +319,7 @@ namespace TeknikServis.Formlar
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(203)))), ((int)(((byte)(110)))));
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.pictureEdit5);
-            this.panel5.Controls.Add(this.labelControl9);
+            this.panel5.Controls.Add(this.lblBugunSatilanUrunSayisi);
             this.panel5.Controls.Add(this.labelControl10);
             this.panel5.Location = new System.Drawing.Point(1477, 12);
             this.panel5.Name = "panel5";
@@ -338,17 +338,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit5.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit5.TabIndex = 2;
             // 
-            // labelControl9
+            // lblBugunSatilanUrunSayisi
             // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl9.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Appearance.Options.UseForeColor = true;
-            this.labelControl9.Location = new System.Drawing.Point(25, 103);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(96, 60);
-            this.labelControl9.TabIndex = 1;
-            this.labelControl9.Text = "584";
+            this.lblBugunSatilanUrunSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblBugunSatilanUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblBugunSatilanUrunSayisi.Appearance.Options.UseFont = true;
+            this.lblBugunSatilanUrunSayisi.Appearance.Options.UseForeColor = true;
+            this.lblBugunSatilanUrunSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblBugunSatilanUrunSayisi.Name = "lblBugunSatilanUrunSayisi";
+            this.lblBugunSatilanUrunSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblBugunSatilanUrunSayisi.TabIndex = 1;
+            this.lblBugunSatilanUrunSayisi.Text = "584";
             // 
             // labelControl10
             // 
@@ -367,7 +367,7 @@ namespace TeknikServis.Formlar
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(203)))), ((int)(((byte)(110)))));
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.pictureEdit6);
-            this.panel6.Controls.Add(this.labelControl11);
+            this.panel6.Controls.Add(this.lblEnDusukFiyatliUrun);
             this.panel6.Controls.Add(this.labelControl12);
             this.panel6.Location = new System.Drawing.Point(1477, 268);
             this.panel6.Name = "panel6";
@@ -386,17 +386,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit6.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit6.TabIndex = 2;
             // 
-            // labelControl11
+            // lblEnDusukFiyatliUrun
             // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl11.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Appearance.Options.UseForeColor = true;
-            this.labelControl11.Location = new System.Drawing.Point(25, 103);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(96, 60);
-            this.labelControl11.TabIndex = 1;
-            this.labelControl11.Text = "584";
+            this.lblEnDusukFiyatliUrun.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblEnDusukFiyatliUrun.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblEnDusukFiyatliUrun.Appearance.Options.UseFont = true;
+            this.lblEnDusukFiyatliUrun.Appearance.Options.UseForeColor = true;
+            this.lblEnDusukFiyatliUrun.Location = new System.Drawing.Point(25, 103);
+            this.lblEnDusukFiyatliUrun.Name = "lblEnDusukFiyatliUrun";
+            this.lblEnDusukFiyatliUrun.Size = new System.Drawing.Size(96, 60);
+            this.lblEnDusukFiyatliUrun.TabIndex = 1;
+            this.lblEnDusukFiyatliUrun.Text = "584";
             // 
             // labelControl12
             // 
@@ -415,7 +415,7 @@ namespace TeknikServis.Formlar
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(48)))), ((int)(((byte)(49)))));
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Controls.Add(this.pictureEdit7);
-            this.panel7.Controls.Add(this.labelControl13);
+            this.panel7.Controls.Add(this.lblEnYuksekFiyatliUrun);
             this.panel7.Controls.Add(this.labelControl14);
             this.panel7.Location = new System.Drawing.Point(1111, 269);
             this.panel7.Name = "panel7";
@@ -434,17 +434,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit7.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit7.TabIndex = 2;
             // 
-            // labelControl13
+            // lblEnYuksekFiyatliUrun
             // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl13.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl13.Appearance.Options.UseFont = true;
-            this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(25, 103);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(96, 60);
-            this.labelControl13.TabIndex = 1;
-            this.labelControl13.Text = "584";
+            this.lblEnYuksekFiyatliUrun.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblEnYuksekFiyatliUrun.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblEnYuksekFiyatliUrun.Appearance.Options.UseFont = true;
+            this.lblEnYuksekFiyatliUrun.Appearance.Options.UseForeColor = true;
+            this.lblEnYuksekFiyatliUrun.Location = new System.Drawing.Point(25, 103);
+            this.lblEnYuksekFiyatliUrun.Name = "lblEnYuksekFiyatliUrun";
+            this.lblEnYuksekFiyatliUrun.Size = new System.Drawing.Size(96, 60);
+            this.lblEnYuksekFiyatliUrun.TabIndex = 1;
+            this.lblEnYuksekFiyatliUrun.Text = "584";
             // 
             // labelControl14
             // 
@@ -463,7 +463,7 @@ namespace TeknikServis.Formlar
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(92)))), ((int)(((byte)(231)))));
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.pictureEdit8);
-            this.panel8.Controls.Add(this.labelControl15);
+            this.panel8.Controls.Add(this.lblEnFazlaUrunKategorisi);
             this.panel8.Controls.Add(this.labelControl16);
             this.panel8.Location = new System.Drawing.Point(745, 269);
             this.panel8.Name = "panel8";
@@ -482,17 +482,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit8.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit8.TabIndex = 2;
             // 
-            // labelControl15
+            // lblEnFazlaUrunKategorisi
             // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl15.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl15.Appearance.Options.UseFont = true;
-            this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(25, 103);
-            this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(96, 60);
-            this.labelControl15.TabIndex = 1;
-            this.labelControl15.Text = "584";
+            this.lblEnFazlaUrunKategorisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblEnFazlaUrunKategorisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblEnFazlaUrunKategorisi.Appearance.Options.UseFont = true;
+            this.lblEnFazlaUrunKategorisi.Appearance.Options.UseForeColor = true;
+            this.lblEnFazlaUrunKategorisi.Location = new System.Drawing.Point(25, 103);
+            this.lblEnFazlaUrunKategorisi.Name = "lblEnFazlaUrunKategorisi";
+            this.lblEnFazlaUrunKategorisi.Size = new System.Drawing.Size(96, 60);
+            this.lblEnFazlaUrunKategorisi.TabIndex = 1;
+            this.lblEnFazlaUrunKategorisi.Text = "584";
             // 
             // labelControl16
             // 
@@ -511,7 +511,7 @@ namespace TeknikServis.Formlar
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.pictureEdit9);
-            this.panel9.Controls.Add(this.labelControl17);
+            this.panel9.Controls.Add(this.lblEnAzStokluUrun);
             this.panel9.Controls.Add(this.labelControl18);
             this.panel9.Location = new System.Drawing.Point(379, 269);
             this.panel9.Name = "panel9";
@@ -530,17 +530,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit9.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit9.TabIndex = 2;
             // 
-            // labelControl17
+            // lblEnAzStokluUrun
             // 
-            this.labelControl17.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl17.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl17.Appearance.Options.UseFont = true;
-            this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(25, 103);
-            this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(96, 60);
-            this.labelControl17.TabIndex = 1;
-            this.labelControl17.Text = "584";
+            this.lblEnAzStokluUrun.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblEnAzStokluUrun.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblEnAzStokluUrun.Appearance.Options.UseFont = true;
+            this.lblEnAzStokluUrun.Appearance.Options.UseForeColor = true;
+            this.lblEnAzStokluUrun.Location = new System.Drawing.Point(25, 103);
+            this.lblEnAzStokluUrun.Name = "lblEnAzStokluUrun";
+            this.lblEnAzStokluUrun.Size = new System.Drawing.Size(96, 60);
+            this.lblEnAzStokluUrun.TabIndex = 1;
+            this.lblEnAzStokluUrun.Text = "584";
             // 
             // labelControl18
             // 
@@ -559,7 +559,7 @@ namespace TeknikServis.Formlar
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(239)))), ((int)(((byte)(196)))));
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.pictureEdit10);
-            this.panel10.Controls.Add(this.labelControl19);
+            this.panel10.Controls.Add(this.lblEnFazlaStokluUrun);
             this.panel10.Controls.Add(this.labelControl20);
             this.panel10.Location = new System.Drawing.Point(13, 269);
             this.panel10.Name = "panel10";
@@ -578,17 +578,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit10.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit10.TabIndex = 2;
             // 
-            // labelControl19
+            // lblEnFazlaStokluUrun
             // 
-            this.labelControl19.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl19.Appearance.Options.UseFont = true;
-            this.labelControl19.Appearance.Options.UseForeColor = true;
-            this.labelControl19.Location = new System.Drawing.Point(25, 103);
-            this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(96, 60);
-            this.labelControl19.TabIndex = 1;
-            this.labelControl19.Text = "584";
+            this.lblEnFazlaStokluUrun.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblEnFazlaStokluUrun.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblEnFazlaStokluUrun.Appearance.Options.UseFont = true;
+            this.lblEnFazlaStokluUrun.Appearance.Options.UseForeColor = true;
+            this.lblEnFazlaStokluUrun.Location = new System.Drawing.Point(25, 103);
+            this.lblEnFazlaStokluUrun.Name = "lblEnFazlaStokluUrun";
+            this.lblEnFazlaStokluUrun.Size = new System.Drawing.Size(96, 60);
+            this.lblEnFazlaStokluUrun.TabIndex = 1;
+            this.lblEnFazlaStokluUrun.Text = "584";
             // 
             // labelControl20
             // 
@@ -607,7 +607,7 @@ namespace TeknikServis.Formlar
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(203)))), ((int)(((byte)(110)))));
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel11.Controls.Add(this.pictureEdit11);
-            this.panel11.Controls.Add(this.labelControl21);
+            this.panel11.Controls.Add(this.lblYaziciStokSayisi);
             this.panel11.Controls.Add(this.labelControl22);
             this.panel11.Location = new System.Drawing.Point(1473, 524);
             this.panel11.Name = "panel11";
@@ -626,17 +626,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit11.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit11.TabIndex = 2;
             // 
-            // labelControl21
+            // lblYaziciStokSayisi
             // 
-            this.labelControl21.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl21.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl21.Appearance.Options.UseFont = true;
-            this.labelControl21.Appearance.Options.UseForeColor = true;
-            this.labelControl21.Location = new System.Drawing.Point(25, 103);
-            this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(96, 60);
-            this.labelControl21.TabIndex = 1;
-            this.labelControl21.Text = "584";
+            this.lblYaziciStokSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblYaziciStokSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblYaziciStokSayisi.Appearance.Options.UseFont = true;
+            this.lblYaziciStokSayisi.Appearance.Options.UseForeColor = true;
+            this.lblYaziciStokSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblYaziciStokSayisi.Name = "lblYaziciStokSayisi";
+            this.lblYaziciStokSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblYaziciStokSayisi.TabIndex = 1;
+            this.lblYaziciStokSayisi.Text = "584";
             // 
             // labelControl22
             // 
@@ -646,16 +646,16 @@ namespace TeknikServis.Formlar
             this.labelControl22.Appearance.Options.UseForeColor = true;
             this.labelControl22.Location = new System.Drawing.Point(25, 23);
             this.labelControl22.Name = "labelControl22";
-            this.labelControl22.Size = new System.Drawing.Size(284, 30);
+            this.labelControl22.Size = new System.Drawing.Size(188, 30);
             this.labelControl22.TabIndex = 0;
-            this.labelControl22.Text = "Bugün Satılan Ürün Sayısı";
+            this.labelControl22.Text = "Yazıcı Stok Sayısı";
             // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(48)))), ((int)(((byte)(49)))));
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel12.Controls.Add(this.pictureEdit12);
-            this.panel12.Controls.Add(this.labelControl23);
+            this.panel12.Controls.Add(this.lblBilgisayarStokSayisi);
             this.panel12.Controls.Add(this.labelControl24);
             this.panel12.Location = new System.Drawing.Point(1107, 525);
             this.panel12.Name = "panel12";
@@ -674,17 +674,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit12.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit12.TabIndex = 2;
             // 
-            // labelControl23
+            // lblBilgisayarStokSayisi
             // 
-            this.labelControl23.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl23.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl23.Appearance.Options.UseFont = true;
-            this.labelControl23.Appearance.Options.UseForeColor = true;
-            this.labelControl23.Location = new System.Drawing.Point(25, 103);
-            this.labelControl23.Name = "labelControl23";
-            this.labelControl23.Size = new System.Drawing.Size(96, 60);
-            this.labelControl23.TabIndex = 1;
-            this.labelControl23.Text = "584";
+            this.lblBilgisayarStokSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblBilgisayarStokSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblBilgisayarStokSayisi.Appearance.Options.UseFont = true;
+            this.lblBilgisayarStokSayisi.Appearance.Options.UseForeColor = true;
+            this.lblBilgisayarStokSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblBilgisayarStokSayisi.Name = "lblBilgisayarStokSayisi";
+            this.lblBilgisayarStokSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblBilgisayarStokSayisi.TabIndex = 1;
+            this.lblBilgisayarStokSayisi.Text = "584";
             // 
             // labelControl24
             // 
@@ -694,16 +694,16 @@ namespace TeknikServis.Formlar
             this.labelControl24.Appearance.Options.UseForeColor = true;
             this.labelControl24.Location = new System.Drawing.Point(25, 23);
             this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(134, 30);
+            this.labelControl24.Size = new System.Drawing.Size(231, 30);
             this.labelControl24.TabIndex = 0;
-            this.labelControl24.Text = "Kritik Seviye";
+            this.labelControl24.Text = "Bilgisayar Stok Sayısı";
             // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(92)))), ((int)(((byte)(231)))));
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel13.Controls.Add(this.pictureEdit13);
-            this.panel13.Controls.Add(this.labelControl25);
+            this.panel13.Controls.Add(this.lblKargodakiUrunSayisi);
             this.panel13.Controls.Add(this.labelControl26);
             this.panel13.Location = new System.Drawing.Point(741, 525);
             this.panel13.Name = "panel13";
@@ -722,17 +722,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit13.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit13.TabIndex = 2;
             // 
-            // labelControl25
+            // lblKargodakiUrunSayisi
             // 
-            this.labelControl25.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl25.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl25.Appearance.Options.UseFont = true;
-            this.labelControl25.Appearance.Options.UseForeColor = true;
-            this.labelControl25.Location = new System.Drawing.Point(25, 103);
-            this.labelControl25.Name = "labelControl25";
-            this.labelControl25.Size = new System.Drawing.Size(96, 60);
-            this.labelControl25.TabIndex = 1;
-            this.labelControl25.Text = "584";
+            this.lblKargodakiUrunSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblKargodakiUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblKargodakiUrunSayisi.Appearance.Options.UseFont = true;
+            this.lblKargodakiUrunSayisi.Appearance.Options.UseForeColor = true;
+            this.lblKargodakiUrunSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblKargodakiUrunSayisi.Name = "lblKargodakiUrunSayisi";
+            this.lblKargodakiUrunSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblKargodakiUrunSayisi.TabIndex = 1;
+            this.lblKargodakiUrunSayisi.Text = "584";
             // 
             // labelControl26
             // 
@@ -751,7 +751,7 @@ namespace TeknikServis.Formlar
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel14.Controls.Add(this.pictureEdit14);
-            this.panel14.Controls.Add(this.labelControl27);
+            this.panel14.Controls.Add(this.lblTamirdekiUrunSayisi);
             this.panel14.Controls.Add(this.labelControl28);
             this.panel14.Location = new System.Drawing.Point(375, 525);
             this.panel14.Name = "panel14";
@@ -770,17 +770,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit14.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit14.TabIndex = 2;
             // 
-            // labelControl27
+            // lblTamirdekiUrunSayisi
             // 
-            this.labelControl27.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl27.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl27.Appearance.Options.UseFont = true;
-            this.labelControl27.Appearance.Options.UseForeColor = true;
-            this.labelControl27.Location = new System.Drawing.Point(25, 103);
-            this.labelControl27.Name = "labelControl27";
-            this.labelControl27.Size = new System.Drawing.Size(96, 60);
-            this.labelControl27.TabIndex = 1;
-            this.labelControl27.Text = "584";
+            this.lblTamirdekiUrunSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblTamirdekiUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblTamirdekiUrunSayisi.Appearance.Options.UseFont = true;
+            this.lblTamirdekiUrunSayisi.Appearance.Options.UseForeColor = true;
+            this.lblTamirdekiUrunSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblTamirdekiUrunSayisi.Name = "lblTamirdekiUrunSayisi";
+            this.lblTamirdekiUrunSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblTamirdekiUrunSayisi.TabIndex = 1;
+            this.lblTamirdekiUrunSayisi.Text = "584";
             // 
             // labelControl28
             // 
@@ -799,7 +799,7 @@ namespace TeknikServis.Formlar
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(239)))), ((int)(((byte)(196)))));
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel15.Controls.Add(this.pictureEdit15);
-            this.panel15.Controls.Add(this.labelControl29);
+            this.panel15.Controls.Add(this.lblArizaliUrunSayisi);
             this.panel15.Controls.Add(this.labelControl30);
             this.panel15.Location = new System.Drawing.Point(9, 525);
             this.panel15.Name = "panel15";
@@ -818,17 +818,17 @@ namespace TeknikServis.Formlar
             this.pictureEdit15.Size = new System.Drawing.Size(109, 110);
             this.pictureEdit15.TabIndex = 2;
             // 
-            // labelControl29
+            // lblArizaliUrunSayisi
             // 
-            this.labelControl29.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
-            this.labelControl29.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl29.Appearance.Options.UseFont = true;
-            this.labelControl29.Appearance.Options.UseForeColor = true;
-            this.labelControl29.Location = new System.Drawing.Point(25, 103);
-            this.labelControl29.Name = "labelControl29";
-            this.labelControl29.Size = new System.Drawing.Size(96, 60);
-            this.labelControl29.TabIndex = 1;
-            this.labelControl29.Text = "584";
+            this.lblArizaliUrunSayisi.Appearance.Font = new System.Drawing.Font("Verdana", 30F);
+            this.lblArizaliUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.lblArizaliUrunSayisi.Appearance.Options.UseFont = true;
+            this.lblArizaliUrunSayisi.Appearance.Options.UseForeColor = true;
+            this.lblArizaliUrunSayisi.Location = new System.Drawing.Point(25, 103);
+            this.lblArizaliUrunSayisi.Name = "lblArizaliUrunSayisi";
+            this.lblArizaliUrunSayisi.Size = new System.Drawing.Size(96, 60);
+            this.lblArizaliUrunSayisi.TabIndex = 1;
+            this.lblArizaliUrunSayisi.Text = "584";
             // 
             // labelControl30
             // 
@@ -864,6 +864,7 @@ namespace TeknikServis.Formlar
             this.Controls.Add(this.panel1);
             this.Name = "FrmIstatistik";
             this.Text = "Ürün İstatistikleri";
+            this.Load += new System.EventHandler(this.FrmIstatistik_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
@@ -917,63 +918,63 @@ namespace TeknikServis.Formlar
 
         private System.Windows.Forms.Panel panel1;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl lblToplamUrunSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraEditors.PictureEdit pictureEdit2;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl lblToplamKategoriSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private System.Windows.Forms.Panel panel3;
         private DevExpress.XtraEditors.PictureEdit pictureEdit3;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl lblToplamStokSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private System.Windows.Forms.Panel panel4;
         private DevExpress.XtraEditors.PictureEdit pictureEdit4;
-        private DevExpress.XtraEditors.LabelControl labelControl7;
+        private DevExpress.XtraEditors.LabelControl lblKritikSeviye;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private System.Windows.Forms.Panel panel5;
         private DevExpress.XtraEditors.PictureEdit pictureEdit5;
-        private DevExpress.XtraEditors.LabelControl labelControl9;
+        private DevExpress.XtraEditors.LabelControl lblBugunSatilanUrunSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private System.Windows.Forms.Panel panel6;
         private DevExpress.XtraEditors.PictureEdit pictureEdit6;
-        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.LabelControl lblEnDusukFiyatliUrun;
         private DevExpress.XtraEditors.LabelControl labelControl12;
         private System.Windows.Forms.Panel panel7;
         private DevExpress.XtraEditors.PictureEdit pictureEdit7;
-        private DevExpress.XtraEditors.LabelControl labelControl13;
+        private DevExpress.XtraEditors.LabelControl lblEnYuksekFiyatliUrun;
         private DevExpress.XtraEditors.LabelControl labelControl14;
         private System.Windows.Forms.Panel panel8;
         private DevExpress.XtraEditors.PictureEdit pictureEdit8;
-        private DevExpress.XtraEditors.LabelControl labelControl15;
+        private DevExpress.XtraEditors.LabelControl lblEnFazlaUrunKategorisi;
         private DevExpress.XtraEditors.LabelControl labelControl16;
         private System.Windows.Forms.Panel panel9;
         private DevExpress.XtraEditors.PictureEdit pictureEdit9;
-        private DevExpress.XtraEditors.LabelControl labelControl17;
+        private DevExpress.XtraEditors.LabelControl lblEnAzStokluUrun;
         private DevExpress.XtraEditors.LabelControl labelControl18;
         private System.Windows.Forms.Panel panel10;
         private DevExpress.XtraEditors.PictureEdit pictureEdit10;
-        private DevExpress.XtraEditors.LabelControl labelControl19;
+        private DevExpress.XtraEditors.LabelControl lblEnFazlaStokluUrun;
         private DevExpress.XtraEditors.LabelControl labelControl20;
         private System.Windows.Forms.Panel panel11;
         private DevExpress.XtraEditors.PictureEdit pictureEdit11;
-        private DevExpress.XtraEditors.LabelControl labelControl21;
+        private DevExpress.XtraEditors.LabelControl lblYaziciStokSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl22;
         private System.Windows.Forms.Panel panel12;
         private DevExpress.XtraEditors.PictureEdit pictureEdit12;
-        private DevExpress.XtraEditors.LabelControl labelControl23;
+        private DevExpress.XtraEditors.LabelControl lblBilgisayarStokSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl24;
         private System.Windows.Forms.Panel panel13;
         private DevExpress.XtraEditors.PictureEdit pictureEdit13;
-        private DevExpress.XtraEditors.LabelControl labelControl25;
+        private DevExpress.XtraEditors.LabelControl lblKargodakiUrunSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl26;
         private System.Windows.Forms.Panel panel14;
         private DevExpress.XtraEditors.PictureEdit pictureEdit14;
-        private DevExpress.XtraEditors.LabelControl labelControl27;
+        private DevExpress.XtraEditors.LabelControl lblTamirdekiUrunSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl28;
         private System.Windows.Forms.Panel panel15;
         private DevExpress.XtraEditors.PictureEdit pictureEdit15;
-        private DevExpress.XtraEditors.LabelControl labelControl29;
+        private DevExpress.XtraEditors.LabelControl lblArizaliUrunSayisi;
         private DevExpress.XtraEditors.LabelControl labelControl30;
     }
 }

@@ -77,7 +77,7 @@ namespace TeknikServis
             this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnKategoriListesi = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnUrunListesiFormu = new DevExpress.XtraBars.BarButtonItem();
@@ -447,18 +447,19 @@ namespace TeknikServis
             // 
             // ribbonPageGroup2
             // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup2.ItemLinks.Add(this.btnKategoriListesi);
             this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem2);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.Text = "ribbonPageGroup2";
             // 
-            // barButtonItem1
+            // btnKategoriListesi
             // 
-            this.barButtonItem1.Caption = "Kategori Listesi";
-            this.barButtonItem1.Id = 1;
-            this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
-            this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
-            this.barButtonItem1.Name = "barButtonItem1";
+            this.btnKategoriListesi.Caption = "Kategori Listesi";
+            this.btnKategoriListesi.Id = 1;
+            this.btnKategoriListesi.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
+            this.btnKategoriListesi.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
+            this.btnKategoriListesi.Name = "btnKategoriListesi";
+            this.btnKategoriListesi.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnKategoriListesi_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -489,8 +490,8 @@ namespace TeknikServis
             // 
             this.btnYenıUrun.Caption = "Yeni Ürün";
             this.btnYenıUrun.Id = 9;
-            this.btnYenıUrun.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.btnYenıUrun.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.btnYenıUrun.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnYenıUrun.ImageOptions.Image")));
+            this.btnYenıUrun.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnYenıUrun.ImageOptions.LargeImage")));
             this.btnYenıUrun.Name = "btnYenıUrun";
             this.btnYenıUrun.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnYenıUrun_ItemClick);
             // 
@@ -600,7 +601,7 @@ namespace TeknikServis
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
             this.ribbonControl1.SearchEditItem,
-            this.barButtonItem1,
+            this.btnKategoriListesi,
             this.barButtonItem2,
             this.btnUrunListesiFormu,
             this.btnYenıUrun,
@@ -640,10 +641,8 @@ namespace TeknikServis
             this.barButtonItem37,
             this.barButtonItem38});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ribbonControl1.MaxItemId = 46;
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage2,
@@ -655,7 +654,7 @@ namespace TeknikServis
             this.ribbonPage14,
             this.ribbonPage16});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
-            this.ribbonControl1.Size = new System.Drawing.Size(1940, 193);
+            this.ribbonControl1.Size = new System.Drawing.Size(1661, 158);
             // 
             // barButtonItem35
             // 
@@ -717,12 +716,11 @@ namespace TeknikServis
             // Form1
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1940, 1101);
+            this.ClientSize = new System.Drawing.Size(1661, 893);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Ribbon = this.ribbonControl1;
             this.Text = "TEKNİK SERVİS OTOMASYONU";
@@ -744,7 +742,7 @@ namespace TeknikServis
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage13;
         private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage15;
         private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl1;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem btnKategoriListesi;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem btnUrunListesiFormu;
         private DevExpress.XtraBars.BarButtonItem btnYenıUrun;

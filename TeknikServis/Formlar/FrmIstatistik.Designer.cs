@@ -742,9 +742,9 @@ namespace TeknikServis.Formlar
             this.labelControl26.Appearance.Options.UseForeColor = true;
             this.labelControl26.Location = new System.Drawing.Point(25, 23);
             this.labelControl26.Name = "labelControl26";
-            this.labelControl26.Size = new System.Drawing.Size(209, 30);
+            this.labelControl26.Size = new System.Drawing.Size(241, 30);
             this.labelControl26.TabIndex = 0;
-            this.labelControl26.Text = "Toplam Stok Sayısı";
+            this.labelControl26.Text = "Kargodaki Ürün Sayısı";
             // 
             // panel14
             // 
@@ -790,9 +790,9 @@ namespace TeknikServis.Formlar
             this.labelControl28.Appearance.Options.UseForeColor = true;
             this.labelControl28.Location = new System.Drawing.Point(25, 23);
             this.labelControl28.Name = "labelControl28";
-            this.labelControl28.Size = new System.Drawing.Size(253, 30);
+            this.labelControl28.Size = new System.Drawing.Size(240, 30);
             this.labelControl28.TabIndex = 0;
-            this.labelControl28.Text = "Toplam Kategori Sayısı";
+            this.labelControl28.Text = "Tamirdeki Ürün Sayısı";
             // 
             // panel15
             // 
@@ -838,9 +838,9 @@ namespace TeknikServis.Formlar
             this.labelControl30.Appearance.Options.UseForeColor = true;
             this.labelControl30.Location = new System.Drawing.Point(25, 23);
             this.labelControl30.Name = "labelControl30";
-            this.labelControl30.Size = new System.Drawing.Size(214, 30);
+            this.labelControl30.Size = new System.Drawing.Size(197, 30);
             this.labelControl30.TabIndex = 0;
-            this.labelControl30.Text = "Toplam Ürün Sayısı";
+            this.labelControl30.Text = "Arızalı Ürün Sayısı";
             // 
             // FrmIstatistik
             // 

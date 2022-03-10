@@ -28,7 +28,8 @@ namespace TeknikServis
         
         Formlar.FrmUrunListeleme frmUrunListeleme;
         Formlar.FrmYeniUrun frmYeniUrun;
-        Formlar.FrmKategoriListesi frmKategoriListesi; 
+        Formlar.FrmKategoriListesi frmKategoriListesi;
+        Formlar.FrmKategoriEkle frmKategoriEkle;
 
         private void btnUrunListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {              
@@ -57,6 +58,15 @@ namespace TeknikServis
                 frmKategoriListesi = new Formlar.FrmKategoriListesi();
                 frmKategoriListesi.MdiParent = this;
                 frmKategoriListesi.Show();
+            }
+        }
+
+        private void btnYeniKategori_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frmKategoriEkle== null || frmKategoriEkle.IsDisposed)
+            {
+                frmKategoriEkle = new Formlar.FrmKategoriEkle();
+                frmKategoriEkle.Show();
             }
         }
     }

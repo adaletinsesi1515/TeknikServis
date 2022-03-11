@@ -19,11 +19,38 @@ namespace TeknikServis.Formlar
         DbTeknikServisEntities db = new DbTeknikServisEntities();
         private void FrmIstatistik_Load(object sender, EventArgs e)
         {
-            var sorgu1 = db.TBLURUN.Count();
-            lblToplamUrunSayisi.Text = sorgu1.ToString();
 
-            var sorgu2 = db.TBLKATEGORI.Count();
-            lblToplamKategoriSayisi.Text = sorgu2.ToString();
+            lblToplamUrunSayisi.Text = db.TBLURUN.Count().ToString();
+            lblToplamKategoriSayisi.Text = db.TBLKATEGORI.Count().ToString();
+            lblToplamStokSayisi.Text = db.TBLURUN.Sum(x => x.STOK).ToString();
+
+            //Önce stok adedine göre en fazla olanı sıralıyoruz(descending), sonra ürün adını seçip, ilk gelen değeri yazdırıyoruz
+            lblEnFazlaStokluUrun.Text = (from x in db.TBLURUN
+                                         orderby x.STOK descending
+                                         select x.AD).FirstOrDefault();
+            
+            //Önce stok adedine göre en az olanı sıralıyoruz (ascending), sonra ürün adını seçip, ilk gelen değeri yazdırıyoruz
+            lblEnAzStokluUrun.Text = (from x in db.TBLURUN
+                                      orderby x.STOK ascending
+                                      select x.AD).FirstOrDefault();
+
+
+            lblEnYuksekFiyatliUrun.Text = (from x in db.TBLURUN
+                                           orderby x.SATISFIYAT descending
+                                           select x.AD).FirstOrDefault();
+
+            lblEnDusukFiyatliUrun.Text = (from x in db.TBLURUN
+                                           orderby x.SATISFIYAT ascending
+                                           select x.AD).FirstOrDefault();
+
+
+            lblBilgisayarStokSayisi.Text = db.TBLURUN.Count(x=>x.KATEGORI == 1).ToString();
+            lblYaziciStokSayisi.Text = db.TBLURUN.Count(x => x.KATEGORI == 9).ToString();
+
+            lblToplamMarkaSayisi.Text = (from x in db.TBLURUN
+                                         select x.MARKA
+                                       ).Distinct().Count().ToString();
+
 
         }
     }

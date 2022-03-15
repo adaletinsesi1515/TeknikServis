@@ -31,6 +31,7 @@ namespace TeknikServis
         Formlar.FrmKategoriListesi frmKategoriListesi;
         Formlar.FrmKategoriEkle frmKategoriEkle;
         Formlar.FrmIstatistik frmIstatistik;
+        Formlar.FrmMarkalar frmMarkalar;
 
         private void btnUrunListesiFormu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {              
@@ -78,6 +79,16 @@ namespace TeknikServis
                 frmIstatistik  = new Formlar.FrmIstatistik();
                 frmIstatistik.MdiParent = this;
                 frmIstatistik.Show();
+            }
+        }
+
+        private void btnMarkaIstatistik_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frmMarkalar == null || frmMarkalar.IsDisposed)
+            {
+                frmMarkalar = new Formlar.FrmMarkalar();
+                frmMarkalar.MdiParent = this;
+                frmMarkalar.Show();
             }
         }
     }
